@@ -1,0 +1,19 @@
+.search-box input {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.search-box input:focus{
+  outline: none;
+}
+
+.search-box button {
+    height: 45px;
+    box-shadow: none;
+    border: none;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    font-weight: 600;
+}

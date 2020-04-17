@@ -1,0 +1,25 @@
+.table {
+ /* width: 500px; */
+ margin-top: 30px;
+ margin-bottom: 5px;
+}
+
+.table td, .table th{
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 5px;
+}
+
+.table th{
+  background-color: darkgoldenrod;
+  color: aliceblue;
+}
+
+.table tr>td:first-child>a{
+  color: #666;
+  font-weight: 700;
+}
+
+.table tr>td:first-child, .table tr>th:first-child{
+  text-align:  left;
+}
